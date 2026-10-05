@@ -1,0 +1,28 @@
+services:
+  openai:
+    build:
+      context: .
+      dockerfile: openai/Dockerfile
+    container_name: hw13-openai
+    working_dir: /workspace/openai
+    volumes:
+      - ./openai:/workspace/openai
+      - ./shared:/workspace/shared:ro
+    mem_limit: 4g
+    cpus: 4
+    stdin_open: true
+    tty: true
+
+  claude:
+    build:
+      context: .
+      dockerfile: claude/Dockerfile
+    container_name: hw13-claude
+    working_dir: /workspace/claude
+    volumes:
+      - ./claude:/workspace/claude
+      - ./shared:/workspace/shared:ro
+    mem_limit: 4g
+    cpus: 4
+    stdin_open: true
+    tty: true
