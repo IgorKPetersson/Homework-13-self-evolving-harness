@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+    "cases": 72,
+    "excess_bins": 13,
+    "family_excess": {
+      "clustered": 1,
+      "complements": 0,
+      "large_small": 0,
+      "small_first": 0,
+      "triples": 11,
+      "uniform": 1
+    },
+    "optimal_bins": 431,
+    "policy_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+    "split": "gate",
+    "total_bins": 444
+  },
+  "candidate": null,
+  "decision": "rejected",
+  "iteration": 2,
+  "reason": "invalid candidate: ValueError: invalid strategy shape"
+}

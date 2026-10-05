@@ -1,0 +1,50 @@
+{
+  "iterations": 60,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "arms": {
+    "adaptive": {
+      "runs": {
+        "1": {
+          "holdout": 0.850695,
+          "train": 0.868055,
+          "accepted": 13
+        },
+        "2": {
+          "holdout": 0.84375,
+          "train": 0.854167,
+          "accepted": 13
+        },
+        "3": {
+          "holdout": 1.0,
+          "train": 1.0,
+          "accepted": 18
+        }
+      },
+      "mean_holdout": 0.898148
+    },
+    "non_adaptive": {
+      "runs": {
+        "1": {
+          "holdout": 0.850695,
+          "train": 0.868055,
+          "accepted": 13
+        },
+        "2": {
+          "holdout": 0.767361,
+          "train": 0.805555,
+          "accepted": 14
+        },
+        "3": {
+          "holdout": 0.670139,
+          "train": 0.75,
+          "accepted": 14
+        }
+      },
+      "mean_holdout": 0.762732
+    }
+  }
+}

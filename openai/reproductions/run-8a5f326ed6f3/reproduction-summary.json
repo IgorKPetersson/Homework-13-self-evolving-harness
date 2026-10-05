@@ -1,0 +1,35 @@
+{
+  "workspace": "/workspace/openai/reproductions/run-8a5f326ed6f3",
+  "steps": {
+    "tests": {
+      "exit_code": 0,
+      "command": [
+        "/usr/local/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    },
+    "demo": {
+      "exit_code": 0,
+      "command": [
+        "/usr/local/bin/python",
+        "-m",
+        "harness.cli",
+        "demo"
+      ]
+    },
+    "verify": {
+      "exit_code": 0,
+      "command": [
+        "/usr/local/bin/python",
+        "-m",
+        "harness.cli",
+        "verify"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "error": "syntax error: expected ':' (line 1)",
+  "holdout": {},
+  "holdout_score": 0.0,
+  "seconds": 0.0,
+  "sha256": "5713db320b0f438a85050d70e493da418d159646a7102b3959cf2b9453808cef",
+  "source_lines": 2,
+  "train": {},
+  "train_score": 0.0,
+  "valid": false
+}

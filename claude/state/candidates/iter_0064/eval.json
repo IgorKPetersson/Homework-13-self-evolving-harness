@@ -1,0 +1,11 @@
+{
+  "error": "forbidden call target: Attribute",
+  "holdout": {},
+  "holdout_score": 0.0,
+  "seconds": 0.0,
+  "sha256": "ddf0935b6aceeccbf6e52a1230c71181b38a293b6a298e1cfccc45c761972e4c",
+  "source_lines": 3,
+  "train": {},
+  "train_score": 0.0,
+  "valid": false
+}

@@ -1,0 +1,25 @@
+{
+  "error": null,
+  "holdout": {
+    "t1_square_plus_y": 0.0,
+    "t2_linear": 0.0625,
+    "t3_double_max": 0.479167,
+    "t4_xy_minus_x": 0.041667,
+    "t5_min_plus_sq": 0.354167,
+    "t6_diff_squares": 0.0625
+  },
+  "holdout_score": 0.166667,
+  "seconds": 0.047,
+  "sha256": "b4c943eef60eea4868949686ffb1e2e36e71e19a9a18df308ab27dd4e6f351ec",
+  "source_lines": 17,
+  "train": {
+    "t1_square_plus_y": 0.291667,
+    "t2_linear": 0.125,
+    "t3_double_max": 0.583333,
+    "t4_xy_minus_x": 0.166667,
+    "t5_min_plus_sq": 0.375,
+    "t6_diff_squares": 0.291667
+  },
+  "train_score": 0.305556,
+  "valid": true
+}

@@ -1,0 +1,11 @@
+{
+  "error": "forbidden construct: Import",
+  "holdout": {},
+  "holdout_score": 0.0,
+  "seconds": 0.0,
+  "sha256": "587849c29b813b92cda25501e6361441ae5c1a1bb012282ebd10fda555e92dff",
+  "source_lines": 6,
+  "train": {},
+  "train_score": 0.0,
+  "valid": false
+}

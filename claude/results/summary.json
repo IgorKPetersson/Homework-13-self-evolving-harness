@@ -1,0 +1,62 @@
+{
+  "accepted": 12,
+  "audit_log": {
+    "message": "audit log intact",
+    "ok": true
+  },
+  "current_eval": {
+    "error": null,
+    "holdout": {
+      "t1_square_plus_y": 1.0,
+      "t2_linear": 0.125,
+      "t3_double_max": 1.0,
+      "t4_xy_minus_x": 1.0,
+      "t5_min_plus_sq": 1.0,
+      "t6_diff_squares": 1.0
+    },
+    "holdout_score": 0.854167,
+    "seconds": 0.043,
+    "sha256": "c49c27e90130e796551d229c1b93c6f92a613459f83abc747f66b11b9ac3ee40",
+    "source_lines": 17,
+    "train": {
+      "t1_square_plus_y": 1.0,
+      "t2_linear": 0.25,
+      "t3_double_max": 1.0,
+      "t4_xy_minus_x": 1.0,
+      "t5_min_plus_sq": 1.0,
+      "t6_diff_squares": 1.0
+    },
+    "train_score": 0.875,
+    "valid": true
+  },
+  "current_version": "v0013",
+  "harness_integrity": {
+    "message": "harness files match manifest",
+    "ok": true
+  },
+  "initial_eval": {
+    "error": null,
+    "holdout_score": 0.006945,
+    "sha256": "261a18325bb7573a6a08344133ab73334dcc77d42a639e7dcba4e04379317a84",
+    "train_score": 0.111111,
+    "valid": true
+  },
+  "invalid_rejected": 4,
+  "iterations": 67,
+  "rejected": 55,
+  "versions": [
+    "v0001",
+    "v0002",
+    "v0003",
+    "v0004",
+    "v0005",
+    "v0006",
+    "v0007",
+    "v0008",
+    "v0009",
+    "v0010",
+    "v0011",
+    "v0012",
+    "v0013"
+  ]
+}

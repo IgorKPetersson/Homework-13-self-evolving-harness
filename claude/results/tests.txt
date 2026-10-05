@@ -1,0 +1,23 @@
+test_audit_tampering_detected (test_harness.TestAuditAndIntegrity.test_audit_tampering_detected) ... ok
+test_modified_evaluator_is_detected (test_harness.TestAuditAndIntegrity.test_modified_evaluator_is_detected) ... ok
+test_generated_solver_matches_in_process_eval (test_harness.TestEvaluator.test_generated_solver_matches_in_process_eval) ... ok
+test_holdout_disjoint_from_train (test_harness.TestEvaluator.test_holdout_disjoint_from_train) ... ok
+test_infinite_loop_is_contained (test_harness.TestEvaluator.test_infinite_loop_is_contained) ... ok
+test_non_int_outputs_score_zero (test_harness.TestEvaluator.test_non_int_outputs_score_zero) ... ok
+test_perfect_solver_scores_one (test_harness.TestEvaluator.test_perfect_solver_scores_one) ... ok
+test_static_validation_rejects_attacks (test_harness.TestEvaluator.test_static_validation_rejects_attacks) ... ok
+test_corrupted_current_version_recovers_to_previous (test_harness.TestLoop.test_corrupted_current_version_recovers_to_previous) ... ok
+test_evolution_never_regresses_and_logs_everything (test_harness.TestLoop.test_evolution_never_regresses_and_logs_everything) ... ok
+test_external_improvement_is_accepted_then_rollback (test_harness.TestLoop.test_external_improvement_is_accepted_then_rollback) ... ok
+test_invalid_candidate_keeps_last_known_good (test_harness.TestLoop.test_invalid_candidate_keeps_last_known_good) ... ok
+test_tampered_baseline_score_is_detected (test_harness.TestLoop.test_tampered_baseline_score_is_detected) ... ok
+test_proposal_is_deterministic (test_harness.TestProposer.test_proposal_is_deterministic) ... ok
+test_reject_streak_lowers_focus_and_raises_effort (test_harness.TestProposer.test_reject_streak_lowers_focus_and_raises_effort) ... ok
+test_deterministic (test_harness.TestSelection.test_deterministic) ... ok
+test_per_task_regression_blocks_net_gain (test_harness.TestSelection.test_per_task_regression_blocks_net_gain) ... ok
+test_rules (test_harness.TestSelection.test_rules) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 5.153s
+
+OK

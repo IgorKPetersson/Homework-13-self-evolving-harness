@@ -1,0 +1,7 @@
+iter 61: REJECT - R1 invalid candidate: syntax error: expected ':' (line 1) (holdout=0.0)
+iter 62: REJECT - R1 invalid candidate: crashed (exit -9): no stderr (holdout=0.0)
+iter 63: REJECT - R1 invalid candidate: forbidden construct: Import (holdout=0.0)
+iter 64: REJECT - R1 invalid candidate: forbidden call target: Attribute (holdout=0.0)
+iter 65: REJECT - R2 per-task holdout regression on ['t1_square_plus_y', 't2_linear', 't3_double_max', 't4_xy_minus_x', 't5_min_plus_sq', 't6_diff_squares'] (holdout=0.0)
+iter 66: REJECT - R2 per-task holdout regression on ['t1_square_plus_y', 't2_linear', 't3_double_max', 't4_xy_minus_x', 't5_min_plus_sq', 't6_diff_squares'] (holdout=0.0)
+iter 67: REJECT - R2 per-task holdout regression on ['t1_square_plus_y', 't2_linear', 't3_double_max', 't4_xy_minus_x', 't5_min_plus_sq', 't6_diff_squares'] (holdout=0.006945)

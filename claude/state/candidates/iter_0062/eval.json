@@ -1,0 +1,11 @@
+{
+  "error": "crashed (exit -9): no stderr",
+  "holdout": {},
+  "holdout_score": 0.0,
+  "seconds": 4.003,
+  "sha256": "ac029cfd96f26399ac612e8cb4159ad45edde2550e00917da9c5107075c077b6",
+  "source_lines": 3,
+  "train": {},
+  "train_score": 0.0,
+  "valid": false
+}

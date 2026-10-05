@@ -1,0 +1,11 @@
+test_data_only_policy_validation (test_harness.IntegrityTests.test_data_only_policy_validation) ... ok
+test_gate_requires_strict_gain_and_family_safety (test_harness.IntegrityTests.test_gate_requires_strict_gain_and_family_safety) ... ok
+test_interrupted_commit_preserves_last_good (test_harness.IntegrityTests.test_interrupted_commit_preserves_last_good) ... ok
+test_packing_validator_rejects_cheating (test_harness.IntegrityTests.test_packing_validator_rejects_cheating) ... ok
+test_exact_oracle_against_independent_search (test_harness.OracleTests.test_exact_oracle_against_independent_search) ... ok
+test_splits_are_distinct_and_all_strategies_are_feasible (test_harness.OracleTests.test_splits_are_distinct_and_all_strategies_are_feasible) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.133s
+
+OK

@@ -1,0 +1,1 @@
+{"t1_square_plus_y": ["add", ["mul", "x", "x"], ["min", "y", "y"]], "t2_linear": ["sub", ["max", "x", "x"], ["sub", "y", "x"]], "t3_double_max": ["max", ["add", "x", "x"], ["add", "y", ["min", "y", "y"]]], "t4_xy_minus_x": ["sub", ["mul", "x", "y"], "x"], "t5_min_plus_sq": ["add", ["mul", "x", "x"], ["min", "y", "x"]], "t6_diff_squares": ["sub", ["neg", "x"], "y"]}

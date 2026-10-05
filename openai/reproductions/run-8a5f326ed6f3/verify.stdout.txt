@@ -1,0 +1,10 @@
+{
+  "active": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+  "audit_records": 76,
+  "scores": {
+    "gate": 13,
+    "holdout": 9,
+    "train": 11
+  },
+  "verified": true
+}

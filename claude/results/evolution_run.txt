@@ -1,0 +1,61 @@
+iter   1  baseline=0.0069  candidate=0.0174  ACCEPT  R4 holdout improved 0.0069 -> 0.0174
+iter   2  baseline=0.0174  candidate=0.0104  REJECT  R2 per-task holdout regression on ['t6_diff_squares']
+iter   3  baseline=0.0174  candidate=0.0139  REJECT  R2 per-task holdout regression on ['t4_xy_minus_x']
+iter   4  baseline=0.0174  candidate=0.0278  ACCEPT  R4 holdout improved 0.0174 -> 0.0278
+iter   5  baseline=0.0278  candidate=0.0278  REJECT  R6 train-only gain without holdout gain (likely overfit)
+iter   6  baseline=0.0278  candidate=0.1076  ACCEPT  R4 holdout improved 0.0278 -> 0.1076
+iter   7  baseline=0.1076  candidate=0.1042  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter   8  baseline=0.1076  candidate=0.1076  REJECT  R6 train-only gain without holdout gain (likely overfit)
+iter   9  baseline=0.1076  candidate=0.1667  ACCEPT  R4 holdout improved 0.1076 -> 0.1667
+iter  10  baseline=0.1667  candidate=0.1667  REJECT  R6 no measurable improvement
+iter  11  baseline=0.1667  candidate=0.1667  REJECT  R6 train-only gain without holdout gain (likely overfit)
+iter  12  baseline=0.1667  candidate=0.3333  ACCEPT  R4 holdout improved 0.1667 -> 0.3333
+iter  13  baseline=0.3333  candidate=0.4410  ACCEPT  R4 holdout improved 0.3333 -> 0.4410
+iter  14  baseline=0.4410  candidate=0.5278  ACCEPT  R4 holdout improved 0.4410 -> 0.5278
+iter  15  baseline=0.5278  candidate=0.5278  REJECT  R6 no measurable improvement
+iter  16  baseline=0.5278  candidate=0.5278  REJECT  R6 train-only gain without holdout gain (likely overfit)
+iter  17  baseline=0.5278  candidate=0.6076  ACCEPT  R4 holdout improved 0.5278 -> 0.6076
+iter  18  baseline=0.6076  candidate=0.6875  ACCEPT  R4 holdout improved 0.6076 -> 0.6875
+iter  19  baseline=0.6875  candidate=0.6840  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  20  baseline=0.6875  candidate=0.6840  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  21  baseline=0.6875  candidate=0.6875  REJECT  R6 no measurable improvement
+iter  22  baseline=0.6875  candidate=0.8438  ACCEPT  R4 holdout improved 0.6875 -> 0.8438
+iter  23  baseline=0.8438  candidate=0.8438  REJECT  R6 train-only gain without holdout gain (likely overfit)
+iter  24  baseline=0.8438  candidate=0.8507  ACCEPT  R4 holdout improved 0.8438 -> 0.8507
+iter  25  baseline=0.8507  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  26  baseline=0.8507  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  27  baseline=0.8507  candidate=0.8333  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  28  baseline=0.8507  candidate=0.8472  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  29  baseline=0.8507  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  30  baseline=0.8507  candidate=0.8472  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  31  baseline=0.8507  candidate=0.8542  ACCEPT  R4 holdout improved 0.8507 -> 0.8542
+iter  32  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  33  baseline=0.8542  candidate=0.8542  REJECT  R6 no measurable improvement
+iter  34  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  35  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  36  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  37  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  38  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  39  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  40  baseline=0.8542  candidate=0.8542  REJECT  R6 no measurable improvement
+iter  41  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  42  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  43  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  44  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  45  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  46  baseline=0.8542  candidate=0.8472  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  47  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  48  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  49  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  50  baseline=0.8542  candidate=0.8472  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  51  baseline=0.8542  candidate=0.8472  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  52  baseline=0.8542  candidate=0.8368  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  53  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  54  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  55  baseline=0.8542  candidate=0.8472  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  56  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  57  baseline=0.8542  candidate=0.8472  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  58  baseline=0.8542  candidate=0.8438  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  59  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+iter  60  baseline=0.8542  candidate=0.8507  REJECT  R2 per-task holdout regression on ['t2_linear']
+final v0013: holdout=0.854167 train=0.875

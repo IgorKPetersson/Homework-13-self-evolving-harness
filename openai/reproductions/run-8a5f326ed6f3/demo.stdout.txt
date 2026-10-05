@@ -1,0 +1,366 @@
+{
+  "baseline": {
+    "gate": {
+      "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+      "cases": 72,
+      "excess_bins": 55,
+      "family_excess": {
+        "clustered": 4,
+        "complements": 13,
+        "large_small": 5,
+        "small_first": 16,
+        "triples": 11,
+        "uniform": 6
+      },
+      "optimal_bins": 431,
+      "policy_hash": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+      "split": "gate",
+      "total_bins": 486
+    },
+    "train": {
+      "case_digest": "302dd6ac3a7b3fedf653180681b836927d6c00e758372c8ffa2cbcd920e25597",
+      "cases": 72,
+      "excess_bins": 55,
+      "family_excess": {
+        "clustered": 2,
+        "complements": 14,
+        "large_small": 7,
+        "small_first": 15,
+        "triples": 12,
+        "uniform": 5
+      },
+      "optimal_bins": 424,
+      "policy_hash": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+      "split": "train",
+      "total_bins": 479
+    }
+  },
+  "final": {
+    "active": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+    "audit_head": "f77f90ade3a26606474d84dd43dda507481597bc4ef74ed7b26af0d1ca7d3955",
+    "baseline": {
+      "active": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+      "measurements": {
+        "gate": {
+          "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+          "cases": 72,
+          "excess_bins": 55,
+          "family_excess": {
+            "clustered": 4,
+            "complements": 13,
+            "large_small": 5,
+            "small_first": 16,
+            "triples": 11,
+            "uniform": 6
+          },
+          "optimal_bins": 431,
+          "policy_hash": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+          "split": "gate",
+          "total_bins": 486
+        },
+        "train": {
+          "case_digest": "302dd6ac3a7b3fedf653180681b836927d6c00e758372c8ffa2cbcd920e25597",
+          "cases": 72,
+          "excess_bins": 55,
+          "family_excess": {
+            "clustered": 2,
+            "complements": 14,
+            "large_small": 7,
+            "small_first": 15,
+            "triples": 12,
+            "uniform": 5
+          },
+          "optimal_bins": 424,
+          "policy_hash": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+          "split": "train",
+          "total_bins": 479
+        }
+      }
+    },
+    "baseline_holdout": {
+      "case_digest": "ca4ff851b6e04041f37a33d1af1678aca307aec82ad9f21ddebf69f0de1ba2c9",
+      "cases": 48,
+      "excess_bins": 35,
+      "family_excess": {
+        "clustered": 0,
+        "complements": 9,
+        "large_small": 5,
+        "small_first": 11,
+        "triples": 8,
+        "uniform": 2
+      },
+      "optimal_bins": 291,
+      "policy_hash": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+      "split": "holdout",
+      "total_bins": 326
+    },
+    "final": {
+      "gate": {
+        "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+        "cases": 72,
+        "excess_bins": 13,
+        "family_excess": {
+          "clustered": 1,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 11,
+          "uniform": 1
+        },
+        "optimal_bins": 431,
+        "policy_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+        "split": "gate",
+        "total_bins": 444
+      },
+      "holdout": {
+        "case_digest": "ca4ff851b6e04041f37a33d1af1678aca307aec82ad9f21ddebf69f0de1ba2c9",
+        "cases": 48,
+        "excess_bins": 9,
+        "family_excess": {
+          "clustered": 0,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 8,
+          "uniform": 1
+        },
+        "optimal_bins": 291,
+        "policy_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+        "split": "holdout",
+        "total_bins": 300
+      },
+      "train": {
+        "case_digest": "302dd6ac3a7b3fedf653180681b836927d6c00e758372c8ffa2cbcd920e25597",
+        "cases": 72,
+        "excess_bins": 11,
+        "family_excess": {
+          "clustered": 0,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 11,
+          "uniform": 0
+        },
+        "optimal_bins": 424,
+        "policy_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+        "split": "train",
+        "total_bins": 435
+      }
+    },
+    "iteration": 1,
+    "trusted_manifest": {
+      "harness/benchmark.py": "536df363c5b787527ba137dee2a1f2f87cf87b93d3574c6bc884b8e856ed625b",
+      "harness/cli.py": "9b41b1b3012bd2d87168d1ef7e7f7b26b58e7dc271e55210da7a17d86a333a39",
+      "harness/engine.py": "417eb4222f6fd11244c9edeed82e95a42776be1121dd8e80f59e8e5e8653ce4b",
+      "harness/evaluator.py": "353588bb82f7687c2a0ecbc6e3cfd5ac048448b3b47c093ed110dde9d414ebe7",
+      "harness/policy.py": "05440243372e06c03facae5a2eab9369ff100a03679043dd9721d577da893595",
+      "harness/storage.py": "ba874d1565a0b484ed7959f0aea4bc1c081684493e7bcae85cc7412c0c5ff8a4",
+      "shared/evals/spec.md": "1996ba9bcba371e907f2764fc5e68f9e6df082737a1406de03e59d95f41b6b03",
+      "shared/task.md": "de86873b6bce2ade42012eff6b9f192284c35e1ec2a74f9442610c1c246cffb3"
+    }
+  },
+  "probe": {
+    "baseline": {
+      "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+      "cases": 72,
+      "excess_bins": 55,
+      "family_excess": {
+        "clustered": 4,
+        "complements": 13,
+        "large_small": 5,
+        "small_first": 16,
+        "triples": 11,
+        "uniform": 6
+      },
+      "optimal_bins": 431,
+      "policy_hash": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+      "split": "gate",
+      "total_bins": 486
+    },
+    "candidate": {
+      "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+      "cases": 72,
+      "excess_bins": 90,
+      "family_excess": {
+        "clustered": 6,
+        "complements": 25,
+        "large_small": 17,
+        "small_first": 16,
+        "triples": 12,
+        "uniform": 14
+      },
+      "optimal_bins": 431,
+      "policy_hash": "12c258de0fc55dba0418affb95f76114bb1e4d00fdc0e7ebaee1368c9541c4b7",
+      "split": "gate",
+      "total_bins": 521
+    },
+    "candidate_hash": "12c258de0fc55dba0418affb95f76114bb1e4d00fdc0e7ebaee1368c9541c4b7",
+    "decision": "rejected",
+    "iteration": 1,
+    "reason": "no strict improvement in excess bins"
+  },
+  "rounds": [
+    {
+      "baseline_gate": {
+        "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+        "cases": 72,
+        "excess_bins": 55,
+        "family_excess": {
+          "clustered": 4,
+          "complements": 13,
+          "large_small": 5,
+          "small_first": 16,
+          "triples": 11,
+          "uniform": 6
+        },
+        "optimal_bins": 431,
+        "policy_hash": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+        "split": "gate",
+        "total_bins": 486
+      },
+      "baseline_train": {
+        "case_digest": "302dd6ac3a7b3fedf653180681b836927d6c00e758372c8ffa2cbcd920e25597",
+        "cases": 72,
+        "excess_bins": 55,
+        "family_excess": {
+          "clustered": 2,
+          "complements": 14,
+          "large_small": 7,
+          "small_first": 15,
+          "triples": 12,
+          "uniform": 5
+        },
+        "optimal_bins": 424,
+        "policy_hash": "b9c0aac9bebb94a5324beca141e1aedaebe89dbd4fe2afe64c69147be3407c7b",
+        "split": "train",
+        "total_bins": 479
+      },
+      "candidate_gate": {
+        "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+        "cases": 72,
+        "excess_bins": 13,
+        "family_excess": {
+          "clustered": 1,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 11,
+          "uniform": 1
+        },
+        "optimal_bins": 431,
+        "policy_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+        "split": "gate",
+        "total_bins": 444
+      },
+      "candidate_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+      "candidate_train": {
+        "case_digest": "302dd6ac3a7b3fedf653180681b836927d6c00e758372c8ffa2cbcd920e25597",
+        "cases": 72,
+        "excess_bins": 11,
+        "family_excess": {
+          "clustered": 0,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 11,
+          "uniform": 0
+        },
+        "optimal_bins": 424,
+        "policy_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+        "split": "train",
+        "total_bins": 435
+      },
+      "decision": "accepted",
+      "iteration": 1,
+      "positive_training_proposals": 20,
+      "reason": "accepted: lower excess bins and no family regression",
+      "screened": 10
+    },
+    {
+      "baseline_gate": {
+        "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+        "cases": 72,
+        "excess_bins": 13,
+        "family_excess": {
+          "clustered": 1,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 11,
+          "uniform": 1
+        },
+        "optimal_bins": 431,
+        "policy_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+        "split": "gate",
+        "total_bins": 444
+      },
+      "baseline_train": {
+        "case_digest": "302dd6ac3a7b3fedf653180681b836927d6c00e758372c8ffa2cbcd920e25597",
+        "cases": 72,
+        "excess_bins": 11,
+        "family_excess": {
+          "clustered": 0,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 11,
+          "uniform": 0
+        },
+        "optimal_bins": 424,
+        "policy_hash": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+        "split": "train",
+        "total_bins": 435
+      },
+      "candidate_gate": {
+        "case_digest": "d91c2b242e398f04dc3ba6bf70b9833e14ce8c8caaf09f263f1628a7a136c539",
+        "cases": 72,
+        "excess_bins": 13,
+        "family_excess": {
+          "clustered": 1,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 11,
+          "uniform": 1
+        },
+        "optimal_bins": 431,
+        "policy_hash": "0bc939e6994665073923aadfe3d5d538349ef190288b0efc82dead81a786e35b",
+        "split": "gate",
+        "total_bins": 444
+      },
+      "candidate_hash": "0bc939e6994665073923aadfe3d5d538349ef190288b0efc82dead81a786e35b",
+      "candidate_train": {
+        "case_digest": "302dd6ac3a7b3fedf653180681b836927d6c00e758372c8ffa2cbcd920e25597",
+        "cases": 72,
+        "excess_bins": 10,
+        "family_excess": {
+          "clustered": 0,
+          "complements": 0,
+          "large_small": 0,
+          "small_first": 0,
+          "triples": 10,
+          "uniform": 0
+        },
+        "optimal_bins": 424,
+        "policy_hash": "0bc939e6994665073923aadfe3d5d538349ef190288b0efc82dead81a786e35b",
+        "split": "train",
+        "total_bins": 434
+      },
+      "decision": "rejected",
+      "iteration": 2,
+      "positive_training_proposals": 2,
+      "reason": "no strict improvement in excess bins",
+      "screened": 40
+    }
+  ],
+  "verification": {
+    "active": "5b22e0a6e1bd77cf1513126a17d3eea1368b19550256329d0d5f26ac90f2baa4",
+    "audit_records": 76,
+    "scores": {
+      "gate": 13,
+      "holdout": 9,
+      "train": 11
+    },
+    "verified": true
+  }
+}
